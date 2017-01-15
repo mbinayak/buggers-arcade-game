@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    font-family: monospace;
+    font-style: italic;
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+}
+.message-board {
+    position: absolute;
+    top: 400px;
+    left: 135px;
+    font-family: monospace;
+    font-size: 25px;
+    color: #eee;
+    word-spacing: -15px;
+}
+.game-board {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 -45px 0;
+    font-size: 25px;
+}
+#score-board {
+    text-align: left;
+    width: 60%;
+    order: 1;
+}
+#life-line {
+    text-align: right;
+    width: 40%;
+    order: 2;
+}
